@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp5
 {
-    partial class Form1
+    partial class wzor
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -34,7 +34,6 @@ namespace WindowsFormsApp5
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBoxPESEL = new System.Windows.Forms.TextBox();
             this.textBoxImie = new System.Windows.Forms.TextBox();
             this.textBoxNazwisko = new System.Windows.Forms.TextBox();
             this.checkedListBoxPrzedmiot = new System.Windows.Forms.CheckedListBox();
@@ -42,6 +41,7 @@ namespace WindowsFormsApp5
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.checkedListBoxClass = new System.Windows.Forms.CheckedListBox();
+            this.textBoxPESEL = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -93,13 +93,6 @@ namespace WindowsFormsApp5
             this.label5.Size = new System.Drawing.Size(72, 19);
             this.label5.TabIndex = 4;
             this.label5.Text = "Ocena: ";
-            // 
-            // textBoxPESEL
-            // 
-            this.textBoxPESEL.Location = new System.Drawing.Point(169, 60);
-            this.textBoxPESEL.Name = "textBoxPESEL";
-            this.textBoxPESEL.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPESEL.TabIndex = 1;
             // 
             // textBoxImie
             // 
@@ -203,7 +196,14 @@ namespace WindowsFormsApp5
             this.checkedListBoxClass.Size = new System.Drawing.Size(100, 164);
             this.checkedListBoxClass.TabIndex = 4;
             // 
-            // Form1
+            // textBoxPESEL
+            // 
+            this.textBoxPESEL.Location = new System.Drawing.Point(169, 60);
+            this.textBoxPESEL.Name = "textBoxPESEL";
+            this.textBoxPESEL.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPESEL.TabIndex = 1;
+            // 
+            // wzor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,7 +222,7 @@ namespace WindowsFormsApp5
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "Form1";
+            this.Name = "wzor";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -236,7 +236,6 @@ namespace WindowsFormsApp5
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBoxPESEL;
         private System.Windows.Forms.TextBox textBoxImie;
         private System.Windows.Forms.TextBox textBoxNazwisko;
         private System.Windows.Forms.CheckedListBox checkedListBoxPrzedmiot;
@@ -244,6 +243,7 @@ namespace WindowsFormsApp5
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckedListBox checkedListBoxClass;
+        private System.Windows.Forms.TextBox textBoxPESEL;
     }
 }
 
